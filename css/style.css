@@ -1,4 +1,8 @@
 body {
+	width: 768px;
+	margin: 0;
+	padding: 0;
+
 	font-size: 14px;
 	line-height: 26px;
 	color: #333333;
@@ -14,4 +18,150 @@ h1 {
 h2 {
 	font-size: 15px;
 	line-height: 30px;
+}
+
+.wrapper {
+	padding: 0;
+	margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+
+  display: block;
+  clear: both;
+}
+
+/* HEADER */
+
+.main_header {
+	min-height: 56px;
+}
+
+.main_navigator {
+	float: left;
+	margin: 0 43px;
+}
+
+
+
+/* MAIN */
+
+
+.intro_info {
+	float: left;
+	margin-bottom: 55px;
+}
+
+
+
+.features_1 {
+	float: left;
+	width: 256px;
+	height: 256px;
+}
+
+.features_1_img {
+	float: right;
+}
+
+
+.features_mini {
+	height: 330px;
+	font-size: 0px;
+}
+
+.features_container {
+	width: 256px;
+	display: inline-block;
+	font-size: 14px;
+}
+
+.features_2 {
+	float: right;
+	width: 256px;
+	height: 256px;
+}
+
+.features_1_img {
+	float: left;
+}
+
+.features_mini_2 {
+	height: 256px;
+	font-size: 0px;
+	margin-bottom: 55px;
+}
+
+
+/* FOOTER */
+
+footer {
+	height: 120px;
+	
+}
+
+.tag {
+	float: left;
+	width: 170px;
+}
+
+.footer_social {
+	float: left;
+	width: 200px;
+	margin: 0 56px;
+}
+
+.footer_copyright {
+	float: right;
+	width: 195px;
+}
+
+
+/*  SECOND PAGE  */
+
+.choice_list {
+	height: 217px;
+	float: left;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.hotel_type {
+	margin: 0 43px;
+}
+
+.result {
+	margin: 0 43px;
+}
+
+.founded_hotel {
+	float: left;
+
+}
+
+.founded_hotel_list {
+	height: 150px;
+	border: 1px solid black;
+}
+
+.hotel_picture {
+	float: left;
+	width: 150px;
+}
+
+.hotel_info {
+	float: left;
+	width: 370px;
+}
+
+.rating {
+	float: right;
+	width: 155px;
 }
