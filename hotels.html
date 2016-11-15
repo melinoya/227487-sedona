@@ -12,7 +12,7 @@
 
         <header class="main_header">
   				<a href="#" class="logo">
-  					<img src="img/logo.png" width="137" height="70" alt="City Of Sedona">
+  					<img src="img/logo.png" width="138" height="70" alt="City Of Sedona">
   				</a>
   				<div class="container">
   					<nav class="main_navigator">
@@ -44,8 +44,9 @@
               <!--Список на выбор-->
 
                 <div class="left"> 
-                  <p >Инфраструктура:</p>
-                  <ul>
+                  <div class="infrastructure">
+                  <p>Инфраструктура:</p>
+                    <ul>
                     <li>
                       <input class="point" type="checkbox" name="pool" id="point_pool">
                       <label for="point_pool">Бассейн</label>
@@ -59,8 +60,10 @@
                       <label for="point-wifi">WI-FI</label>
                     </li>
                   </ul>
+                  </div>
+                  <div class="dwelling_type">
                   <p>Тип жилья:</p>
-                  <ul >
+                  <ul>
                     <li>
                       <input class="point" type="checkbox" name="hotel" id="point_hotel">
                       <label for="point_hotel">Гостиница</label>
@@ -74,10 +77,11 @@
                       <label for="point_apartament">Апартаменты</label>
                     </li>
                   </ul>
+                  </div>
                 </div>
                 
                 <!--Ползунок-->
-
+                <!--
                 <div class="right">
                   <p>Стоимость в сутки (Р):</p>
                   <label for="min_cost_field">От</label>
@@ -90,7 +94,7 @@
                     <div class="toddler"></div>
                   </div>
                   <button type="submit" name="Показать" class="btn">Показать</button>
-                </div>
+                </div> -->
               </form>
           </section>
           <div class="clearfix"></div>
@@ -113,8 +117,10 @@
                     <a href="#">По рейтингу</a>
                   </li>
                 </ul>
-                <span>&#5123;</span>
-                <span>&#5121;</span>
+                <div class="direction">
+                	<span>&#5123;</span>
+                	<span>&#5121;</span>
+                </div>
               </div>
             </div>
             <div class="clearfix"></div>
@@ -122,13 +128,13 @@
             <div class="founded_hotel">
               
               <div class="founded_hotel_list">
-                <div class="hotel_picture"></div>
+                <div class="hotel_picture hotel_picture_1"></div>
                 <div class="hotel_info">
-                  <b>Amara resort &#38; spa</b><br>
-                  <span>Гостиница</span><span>от 3500 р.</span>
+                  <a href="#">Amara resort &#38; spa</a><br>
+                  <span>Гостиница</span><span class="price">от 3500 р.</span>
                   <div class="btns">
-                    <a class="more_btn" href="#">Подробнее</a>
-                    <a class="reserv_btn" href="#">Забронировать</a>
+                    <a class="more_btn btn" href="#">Подробнее</a>
+                    <a class="reserv_btn btn" href="#">Забронировать</a>
                   </div>
                   <div class="rating">
                     <span>&#9734; &#9734; &#9734; &#9734;</span><br>
@@ -138,13 +144,13 @@
               </div>
               
               <div class="founded_hotel_list">
-                <div class="hotel_picture"></div>
+                <div class="hotel_picture hotel_picture_2"></div>
                 <div class="hotel_info">
-                  <b>Desert quail inn</b><br>
-                  <span>Мотель</span><span>от 2000 р.</span>
+                  <a href="#">Desert quail inn</a><br>
+                  <span>Мотель</span><span class="price">от 2000 р.</span>
                   <div class="btns">
-                    <a class="more_btn" href="#">Подробнее</a>
-                    <a class="reserv_btn" href="#">Забронировать</a>
+                    <a class="more_btn btn" href="#">Подробнее</a>
+                    <a class="reserv_btn btn" href="#">Забронировать</a>
                   </div>
                   <div class="rating">
                     <span>&#9734; &#9734;</span><br>
@@ -153,13 +159,13 @@
                 </div>
               </div>
               <div class="founded_hotel_list">
-                <div class="hotel_picture"></div>
+                <div class="hotel_picture hotel_picture_3"></div>
                 <div class="hotel_info">
-                  <b>Villas at poco diablo</b><br>
-                  <span>Апартаменты</span><span>от 4000 р.</span>
+                  <a href="#">Villas at poco diablo</a><br>
+                  <span>Апартаменты</span><span class="price">от 4000 р.</span>
                   <div class="btns">
-                    <a class="more_btn" href="#">Подробнее</a>
-                    <a class="reserv_btn" href="#">Забронировать</a>
+                    <a class="more_btn btn" href="#">Подробнее</a>
+                    <a class="reserv_btn btn" href="#">Забронировать</a>
                   </div>
                   <div class="rating">
                     <span>&#9734; &#9734; &#9734;</span><br>
