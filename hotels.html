@@ -81,20 +81,22 @@
                 </div>
                 
                 <!--Ползунок-->
-                <!--
+
                 <div class="right">
-                  <p>Стоимость в сутки (Р):</p>
-                  <label for="min_cost_field">От</label>
-                  <input type="text" name="min_cost" id="min_cost_field">
-                  <label for="max_cost_field">До</label>
-                  <input type="text" name="max_cost" id="max_cost_field">
-                  <div class="scale">
-                    <div class="bar"></div>
-                    <div class="toddler"></div>
-                    <div class="toddler"></div>
+                  <p class="filter_title">Стоимость в сутки (Р):</p>
+                  <div class="price_controls">
+                  	<label class="min_price">От<input type="text" name="min_price"></label>
+                  	<label class="max_price">До<input type="text" name="max_price"></label>
                   </div>
-                  <button type="submit" name="Показать" class="btn">Показать</button>
-                </div> -->
+                  <div class="range_controls">
+                    <div class="scale">
+                    	<div class="bar"></div>
+                    </div>
+                    <div class="range_toggle range_toggle_min"></div>
+                    <div class="range_toggle range_toggle_max"></div>
+                  </div>
+                  <button class="btn_transparent" type="submit" name="Показать" class="btn">Показать</button>
+                </div>
               </form>
           </section>
           <div class="clearfix"></div>
@@ -118,8 +120,8 @@
                   </li>
                 </ul>
                 <div class="direction">
-                	<span>&#5123;</span>
-                	<span>&#5121;</span>
+                	<span class="active">&#9650;</span>
+                	<span>&#9660;</span>
                 </div>
               </div>
             </div>
@@ -137,7 +139,7 @@
                     <a class="reserv_btn btn" href="#">Забронировать</a>
                   </div>
                   <div class="rating">
-                    <span>&#9734; &#9734; &#9734; &#9734;</span><br>
+                    <span>&#9733;	&#9733;	&#9733;	&#9733;</span><br>
                     <span>Рейтинг: 8,5</span>
                   </div>
                 </div>
@@ -153,7 +155,7 @@
                     <a class="reserv_btn btn" href="#">Забронировать</a>
                   </div>
                   <div class="rating">
-                    <span>&#9734; &#9734;</span><br>
+                    <span>&#9733; &#9733;</span><br>
                     <span>Рейтинг: 8,9</span>
                   </div>
                 </div>
@@ -168,7 +170,7 @@
                     <a class="reserv_btn btn" href="#">Забронировать</a>
                   </div>
                   <div class="rating">
-                    <span>&#9734; &#9734; &#9734;</span><br>
+                    <span>&#9733; &#9733; &#9733;</span><br>
                     <span>Рейтинг: 9,2</span>
                   </div>
                 </div>
